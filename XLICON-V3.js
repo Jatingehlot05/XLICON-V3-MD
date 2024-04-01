@@ -194,9 +194,9 @@ function formatAfkDuration(ms) {
   return parts.join(", ");
 }
 //time
-const xtime = moment.tz("Asia/Karachi").format("HH:mm:ss");
-const xdate = moment.tz("Asia/Karachi").format("DD/MM/YYYY");
-const time2 = moment().tz("Asia/Karachi").format("HH:mm:ss");
+const xtime = moment.tz("Asia/Kolkata").format("HH:mm:ss");
+const xdate = moment.tz("Asia/Kolkata").format("DD/MM/YYYY");
+const time2 = moment().tz("Asia/Kolkata").format("HH:mm:ss");
 if (time2 < "23:59:00") {
   var xeonytimewisher = `Good Night 🌌`;
 }
@@ -1050,7 +1050,7 @@ module.exports = XliconBotInc = async (XliconBotInc, m, chatUpdate, store) => {
       XliconBotInc.updateProfileStatus(
         `${botname} 📃 𝐇𝐚𝐯𝐞 𝐁𝐞𝐞𝐧 𝐑𝐮𝐧𝐧𝐢𝐧𝐠 💻 ${runtime(
           process.uptime()
-        )}...                                   ~𝐒𝐓𝐀𝐑 ⭐ 𝐓𝐡𝐞 𝐁𝐨𝐭 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐎𝐧 𝐆𝐢𝐭𝐇𝐮𝐛...                       🏮 © Xʟɪᴄᴏɴ-Iɴᴄ
+        )}...                                   ~𝐒𝐓𝐀𝐑 ⭐ 𝐓𝐡𝐞 𝐁𝐨𝐭 𝐑𝐞𝐩𝐨𝐬𝐢𝐭𝐨𝐫𝐲 𝐎𝐧 𝐆𝐢𝐭𝐇𝐮𝐛...                       🏮 © JATWA BOT
      `
       ).catch((_) => _);
     }
@@ -2872,7 +2872,7 @@ click https://wa.me/${botNumber.split`@`[0]}`,
             XliconBotInc.sendMessage(
               from,
               {
-                text: `\`\`\`「 ⚠️Warning⚠️ 」\`\`\`\n\nNsfw(not safe for work) feature has been enabled in this group, which means one can access sexual graphics from the bot!`,
+                text: `\`\`\`「 ⚠️Warning⚠️ MAT KAR BHAI」\`\`\`\n\nNsfw(not safe for work) feature has been enabled in this group, which means one can access sexual graphics from the bot!`,
                 contextInfo: { mentionedJid: mems },
               },
               { quoted: m }
@@ -4165,7 +4165,7 @@ ${cpus
               /github\.com\/([^/]+)\/([^/]+)/
             );
             const response = await axios.get(
-              `https://api.github.com/repos/salmanytofficial/XLICON-V3-MD`
+              `https://api.github.com/repos/Jatingehlot05/XLICON-V3-MD`
             );
             if (response.status === 200) {
               const repoData = response.data;
@@ -4370,7 +4370,7 @@ ${themeemoji} URL: ${repoData.html_url}
             global.websitex
           }\nGitHub: ${global.botscript}\n\nHi @${
             me.split("@")[0]
-          } 👋\nDont forget to donate yeah🍜 👇 https://www.buymeacoffee.com/ahmmikun`;
+          } 👋\nDont forget to donate yeah🍜 👇 https://www.buymeacoffee.com/jatingehlot`;
           sendXliconBotIncMessage(from, {
             text: teks,
             mentions: [sender],
@@ -11519,7 +11519,7 @@ ${listAdmin}
           let mot = pickRandom(["⌬", "⏣", "❐", "❑", "➛", "✧", "✯"]);
           let xmenu_oh = `
 ┌─❖
-│ *_Hi_* _Senpai_ 👋 
+│ *_Jai Siya Ram_* 🙏🏼
 └┬❖  ${pushname} 
  ✑  ${xeonytimewisher} 😄 
   └────────────┈ ▱╼❲⭐❳
@@ -11531,15 +11531,6 @@ ${mot} 𝗕𝗼𝘁 : ${botname}
 ${mot} 𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: +${ownernumber}
 ${mot} 𝗣𝗿𝗲𝗳𝗶𝘅 :  [ ${xprefix} ]
 ${mot} 𝗠𝗼𝗱𝗲 : ${XliconBotInc.public ? "Public" : `Self`}
-${mot} 𝗣𝗹𝘂𝗴𝗶𝗻𝘀: ${Xliconfeature()}
-${mot} 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-${mot} 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-${mot} 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : *_SalmanSer Server_*
-${mot} 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-${mot} 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length} User
-${mot} 𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${global.db.data.settings[botNumber].totalhit} Hit
-${mot} 𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁 : ${Object.keys(global.db.data.chats).length} Chat/Gc
-
 
  ⏤͟͟͞͞★ 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 ꗄ➺
 
@@ -11580,6 +11571,16 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
 │➛ ${xprefix}sᴛᴀʟᴋᴇʀᴍᴇɴᴜ
 │➛ ${xprefix}ʙᴜɢᴍᴇɴᴜ
 │➛ ${xprefix}ᴏᴛʜᴇʀᴍᴇɴᴜ
+
+ ⏤͟͟͞͞★ 𝐁𝐎𝐓
+${mot} 𝗣𝗹𝘂𝗴𝗶𝗻𝘀: ${Xliconfeature()}
+${mot} 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+${mot} 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+${mot} 𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : *_IAMJ-heroku_*
+${mot} 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+${mot} 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length} User
+${mot} 𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${global.db.data.settings[botNumber].totalhit} Hit
+${mot} 𝗧𝗼𝘁𝗮𝗹 𝗖𝗵𝗮𝘁 : ${Object.keys(global.db.data.chats).length} Chat/Gc
 ╰▱╼❲⭐❳`;
           if (typemenu === "v1") {
             XliconBotInc.sendMessage(
@@ -11729,7 +11730,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "allmenu":
         {
-          let xmenu_oh = `*_HI_*...👋🏻 *${pushname}*
+          let xmenu_oh = `*_Namaste_*...🙏🏼 *${pushname}*
 
 ┌⟝———ᙍ ɪɴꜰᴏ ᙊ
 ┃ *ʙᴏᴛ ɴᴀᴍᴇ* : ${botname}
@@ -12041,7 +12042,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "othermenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${othermenu(
+          let xmenu_oh = `Shri Shivay Namastubhium ${pushname}${readmore}\n\n${othermenu(
             prefix,
             hituet
           )}`;
@@ -12194,7 +12195,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
       case "downloadmenu":
       case "dlmenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${downloadmenu(
+          let xmenu_oh = `Jai Mata Ji ri ${pushname}sa${readmore}\n\n${downloadmenu(
             prefix,
             hituet
           )}`;
@@ -12346,7 +12347,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "groupmenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${groupmenu(
+          let xmenu_oh = `Jai Shree Ram ${pushname}${readmore}\n\n${groupmenu(
             prefix,
             hituet
           )}`;
@@ -12650,7 +12651,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "stalkermenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${stalkermenu(
+          let xmenu_oh = `Jai Shree ${pushname}sa${readmore}\n\n${stalkermenu(
             prefix,
             hituet
           )}`;
@@ -12802,7 +12803,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "randomphotomenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${randphotomenu(
+          let xmenu_oh = `Jai Balaji Sarkar ${pushname}${readmore}\n\n${randphotomenu(
             prefix,
             hituet
           )}`;
@@ -12954,7 +12955,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "randomvideomenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${randvideomenu(
+          let xmenu_oh = `Hari Om ${pushname}${readmore}\n\n${randvideomenu(
             prefix,
             hituet
           )}`;
@@ -13106,7 +13107,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "photooxymenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${photooxymenu(
+          let xmenu_oh = `Radhe Radhe ${pushname}${readmore}\n\n${photooxymenu(
             prefix,
             hituet
           )}`;
@@ -13259,7 +13260,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
       case "ephoto360menu":
       case "ephotomenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${ephoto360menu(
+          let xmenu_oh = `Ram Ram ${pushname}${readmore}\n\n${ephoto360menu(
             prefix,
             hituet
           )}`;
@@ -13411,7 +13412,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "makermenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${makermenu(
+          let xmenu_oh = `Sita Ram ${pushname}${readmore}\n\n${makermenu(
             prefix,
             hituet
           )}`;
@@ -13563,7 +13564,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "nsfwmenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${nsfwmenu(
+          let xmenu_oh = `Kya Kar Raha Hai, mat kar ${pushname}${readmore}\n\n${nsfwmenu(
             prefix,
             hituet
           )}`;
@@ -13715,7 +13716,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "animemenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${animemenu(
+          let xmenu_oh = `Hare Krsna ${pushname}${readmore}\n\n${animemenu(
             prefix,
             hituet
           )}`;
@@ -13867,7 +13868,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "stickermenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${stickermenu(
+          let xmenu_oh = `Jai Mahakal ${pushname}${readmore}\n\n${stickermenu(
             prefix,
             hituet
           )}`;
@@ -14019,7 +14020,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "databasemenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${databasemenu(
+          let xmenu_oh = `Or kya haal-chaal ${pushname}${readmore}\n\n${databasemenu(
             prefix,
             hituet
           )}`;
@@ -14171,7 +14172,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "aimenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${aimenu(
+          let xmenu_oh = `Jai Bajrang Bali ${pushname}${readmore}\n\n${aimenu(
             prefix,
             hituet
           )}`;
@@ -14323,7 +14324,7 @@ ${mot} 𝗗𝗮𝘁𝗲 : ${xdate}
         break;
       case "bugmenu":
         {
-          let xmenu_oh = `Hi ${pushname}${readmore}\n\n${bugmenu(
+          let xmenu_oh = `Har Har Mahadev ${pushname}${readmore}\n\n${bugmenu(
             prefix,
             hituet
           )}`;
